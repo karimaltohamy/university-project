@@ -1,6 +1,13 @@
 @use "../components/header";
 @use "../components/footer";
 @use "../pages/index";
+@use "../pages/lectures";
+@use "../pages/materials";
+@use "../pages/exams-results-form";
+@use "../pages/Enrollment-institute";
+@use "../pages/contact";
+@use "../pages/institute-message";
+@use "../pages/board-of-directors";
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
@@ -11,13 +18,13 @@
 }
 
 html {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 body {
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 ul {
