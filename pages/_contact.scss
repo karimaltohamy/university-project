@@ -104,7 +104,7 @@ $dark-color: #051723;
 
           .error {
             position: absolute;
-            bottom: -15px;
+            bottom: -1px;
             right: 0;
             font-size: 13px;
             color: red;
@@ -199,3 +199,29 @@ $dark-color: #051723;
   }
 }
 // end contact_section
+
+// start map_section
+.map_section {
+  padding: 50px;
+
+  .map {
+    overflow: hidden;
+    border-radius: 10px;
+
+    iframe {
+      height: 400px;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .map_section {
+    padding: 20px;
+
+    iframe {
+      height: 300px;
+    }
+  }
+}
+// end map_section

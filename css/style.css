@@ -1431,7 +1431,7 @@ footer .line .right .social-media a i {
 }
 .contact_section .line .right form .input_item .error {
   position: absolute;
-  bottom: -15px;
+  bottom: -1px;
   right: 0;
   font-size: 13px;
   color: red;
@@ -1506,6 +1506,26 @@ footer .line .right .social-media a i {
   }
   .contact_section .line .right .input_item textarea {
     height: 100px;
+  }
+}
+.map_section {
+  padding: 50px;
+}
+.map_section .map {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.map_section .map iframe {
+  height: 400px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .map_section {
+    padding: 20px;
+  }
+  .map_section iframe {
+    height: 300px;
   }
 }
 .message_section {
